@@ -1,0 +1,88 @@
+{
+    "name": "UFOVc",
+    "logo": "https://telegra.ph/file/7618711bbdb9f03ed989e.jpg",
+    "description": "UFO Music Voice Chat.",
+    "keywords": ["music", "voice chat", "telegram"],
+    "repository": "https://github.com/MSaleMD/UFoVC",
+    "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "ضع كود تيرميكس هنا ",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "توكــن بوتـــك !",
+            "required": true
+        },
+        "BOT_NAME": {
+            "description": "إســـم بوتــك !.",
+            "required": false,
+            "value": ""
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر نيــم بوتــك بدون -> @",
+            "required": true,
+            "value": "astathonbot"
+        },
+        "ASSISTANT_NAME": {
+            "description": "يوزر نيــم أسيستانتــ بوتـ بدون ->  @",
+            "required": true,
+            "value": "astathon"
+        },
+        "BG_IMAGE": {
+            "description": "خلــفية",
+            "required": false,
+            "value": "https://telegra.ph/file/6d31d6b18722ce94521cb.jpg"
+        },
+        "THUMB_IMG": {
+            "description": "سيبــها زي مهي عادي يبا -> bg_image",
+            "required": false,
+            "value": "https://telegra.ph/file/6d31d6b18722ce94521cb.jpg"
+        },
+        "OWNER_NAME": {
+            "description": "حط يوزركـــ بدون -> @",
+            "required": false,
+            "value": "astathon"
+        },
+        "API_ID": {
+            "description": "حــط App ID from my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "حــط Api hash from my.telegram.org/apps",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "قايــمة الســودو",
+            "required": true
+        },
+        "DURATION_LIMIT": {
+            "description": "max",
+            "required": true,
+            "value": "60"
+        },
+        "PMPERMIT": {
+            "description": "سيــبها.",
+            "required": false,
+            "value": "ENABLE"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "تحديثاتــ سورس استاثون !!!",
+            "required": false,
+            "value": "botastathon"
+        },
+        "GROUP_SUPPORT": {
+            "description": "جروبــ الدعــم",
+            "required": false,
+            "value": "astathon"
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
