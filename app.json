@@ -1,6 +1,6 @@
 {
-    "name": "UFOVc",
-    "logo": "https://telegra.ph/file/7618711bbdb9f03ed989e.jpg",
+    "name": "سورس ميوزك",
+    "logo": "https://telegra.ph/file/1f4e30994f79f7b69e120.jpg",
     "description": "UFO Music Voice Chat.",
     "keywords": ["music", "voice chat", "telegram"],
     "repository": "https://github.com/MSaleMD/UFoVC",
@@ -37,7 +37,7 @@
         "THUMB_IMG": {
             "description": "سيبــها زي مهي عادي يبا -> bg_image",
             "required": false,
-            "value": "https://telegra.ph/file/6d31d6b18722ce94521cb.jpg"
+            "value": "https://telegra.ph/file/1f4e30994f79f7b69e120.jpg"
         },
         "OWNER_NAME": {
             "description": "حط يوزركـــ بدون -> @",
